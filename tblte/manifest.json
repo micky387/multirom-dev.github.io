@@ -1,0 +1,56 @@
+{
+	"status": "ok",
+	"date": "2017-04-20",
+	"commands": "",
+	"gpg": false,
+	"devices":
+		[
+			{"files":
+				[
+					{
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/installer/multirom-20170421-v33b-UNOFFICIAL-tbltexx.zip",
+						"version": "33b",
+						"type": "multirom",
+						"size": 3959145,
+						"md5": "b938c2c5d17e38878c4ed49ef4b0f432"
+					},
+					{
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/recovery/mr-twrp-recovery-20170420-V1.img",
+						"version": "mrom20170420-01",
+						"type": "recovery",
+						"size": 19632144,
+						"md5": "c1fae7e0901bc88115d44289d5d7c5fc"
+					},
+					{
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/uninstaller/multirom_uninstaller.zip",
+						"version": "",
+						"type": "uninstaller",
+						"size": 1643014 ,
+						"md5": "6176adc7cb695177988e257b9cfb2486"
+					},
+					{
+						"extra": {"releases":["7.1.1"]},
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/kernels/RR-N-v5.8.2-tbltexx_Kexec.img",
+						"version": "RR-N-v5.8.2-tbltexx_Kexec",
+						"md5": "43a7d6395549404f55dc23721a0cb66e",
+						"type": "kernel",
+						"size": 13049872
+					},
+					{
+						"extra": {"releases":["6.0.1"]},
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/kernels/Micky387_V4_MM_kexec.img",
+						"version": "Micky387_V4_MM_kexec",
+						"md5": "f51ddea3a62311f635396866842b7f8c",
+						"type": "kernel",
+						"size": 15298560
+					}
+				],
+                        "name": "tblte",
+                        "ubuntu_touch":
+				{
+                                        "req_multirom": "33",
+                                        "req_recovery": "mrom20170420-01"
+				}
+			}
+		]
+}
