@@ -1,6 +1,6 @@
 {
 	"status": "ok",
-	"date": "2017-04-26",
+	"date": "2018-05-29",
 	"commands": "",
 	"gpg": false,
 	"devices":
@@ -8,18 +8,18 @@
 			{"files":
 				[
 					{
-						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/installer/multirom-20170426-v33c-UNOFFICIAL-tbltexx.zip",
-						"version": "33c",
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/installer/multirom-20180529-v33x-UNOFFICIAL-tblte.zip",
+						"version": "33x",
 						"type": "multirom",
-						"size": 3959100,
-						"md5": "5ed72ef204a33a773771819797512c66"
+						"size": 4048747,
+						"md5": "f24f3da2206e6fe2e7a36b784158dee1"
 					},
 					{
-						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/recovery/mr-twrp-recovery-20170420-V1.img",
-						"version": "mrom20170420-01",
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/recovery/mr-twrp-recovery-20180529-02-Stable_V2.img",
+						"version": "mrom20180529-02",
 						"type": "recovery",
-						"size": 19632144,
-						"md5": "c1fae7e0901bc88115d44289d5d7c5fc"
+						"size": 17981456,
+						"md5": "3fd77cf1dbcddf4838d12d41d78515ab"
 					},
 					{
 						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/uninstaller/multirom_uninstaller.zip",
@@ -29,12 +29,20 @@
 						"md5": "6176adc7cb695177988e257b9cfb2486"
 					},
 					{
-						"extra": {"releases":["7.1.1"]},
-						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/kernels/RR-N-v5.8.2-tbltexx_Kexec.img",
-						"version": "RR-N-v5.8.2-tbltexx_Kexec",
-						"md5": "43a7d6395549404f55dc23721a0cb66e",
+						"extra": {"releases":["8.0.1"]},
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/kernels/RR-6.0_tblte_kexec.img",
+						"version": "RR-6.0_tblte_kexec",
+						"md5": "ebff74eb47ffeba0c15108812e97b28b",
 						"type": "kernel",
-						"size": 13049872
+						"size": 9809936
+					},
+					{
+						"extra": {"releases":["8.0.1"]},
+						"url": "https://github.com/micky387/multirom-dev.github.io/raw/master/tblte/kernels/lineage-15.1_tblte_kexec.img",
+						"version": "lineage-15.1_tblte_kexec",
+						"md5": "8e09072fd59b3d05b33b9c9ee3c89b4f",
+						"type": "kernel",
+						"size": 9801744
 					},
 					{
 						"extra": {"releases":["6.0.1"]},
